@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 1: Basic HTML Bio</title>
+</head>
+
+<  <body>
+    <h1>Project Demo</h1>
+  
+    <img src="resources/profile.jpg" alt="Profile Pic">
+
+      <p>
+      I live in Raleigh and I have two kids and two dogs.
+      </p>
+    </section>
+  
+    <section>
+      <p>
+       I went to UNC and I like llamas.
+      </p>
+    </section>
+  
+    
+      <h2>Unordered and Ordered Lists</h2>
+      <p>
+        <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags are for rendering an unordered list in your HTML document.
+      </p>
+      <p>For example, this HTML:</p>
+      <code>
+        &lt;ul&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Monday&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Tuesday&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Thursday&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+      </code>
+      <p>
+        Produces this list in our document:
+      </p>
+      <ul>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Thursday</li>
+      </ul>
+      <p>We can produce an ordered list simply by swapping out the <code>ul</code> element for an <code>ol</code> element:</p>
+       <code>
+        &lt;ol&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Monday&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Tuesday&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Thursday&lt;/li&gt;<br>
+        &lt;/ol&gt;<br>
+      </code>
+      <ol>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Thursday</li>
+      </ol>
+      <p>
+        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">Learn More! (Unordered Lists)</a>
+        <br>
+        <br>
+        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">Learn More! (Ordered Lists)</a>
+      </p>
+    </section>
+  
+    <section>
+      <hr>
+      <h2>Tables</h2>
+      <p>
+        <code>&lt;table&gt;</code> tags are for representing tabular data inside of a table. On their own, <code>table</code> tags don't do much. So we nest <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code> <code>&lt;th&gt;</code> tags
+        inside.
+      </p>
+      <p>For example, this HTML:</p>
+      <section>
+        <code>
+        &lt;table border=&quot;1&quot;&gt;
+          <br>&nbsp;&nbsp;&lt;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Company&lt;&#x2F;th&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Contact&lt;&#x2F;th&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Email&lt;&#x2F;th&gt;
+          <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+          <br>&nbsp;&nbsp;&lt;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Google&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Sergey Brin&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;sergey@google.com&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+          <br>&nbsp;&nbsp;&lt;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Facebook&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mark Zuckerburg&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;mark@facebook.com&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Space X&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Elon Musk&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;elon@spacex.com&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+          <br>&nbsp;&nbsp;&lt;tr&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Amazon&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Jeff Bezos&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;jeff@amazon.com&lt;&#x2F;td&gt;
+          <br>&nbsp;&nbsp;&lt;&#x2F;tr&gt;
+          <br>&lt;&#x2F;table&gt;
+        </code>
+      </section>
+      <p>Produces this table:</p>
+      <table border="1">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>Sergey Brin</td>
+          <td>sergey@google.com</td>
+        </tr>
+        <tr>
+          <td>Facebook</td>
+          <td>Mark Zuckerburg</td>
+          <td>mark@facebook.com</td>
+        </tr>
+        <tr>
+          <td>Space X</td>
+          <td>Elon Musk</td>
+          <td>elon@spacex.com</td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td>Jeff Bezos</td>
+          <td>jeff@amazon.com</td>
+        </tr>
+      </table>
+      <p>
+        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Learn More!</a>
+      </p>
+    </section>
+  
+  
+</body>
+
+</html>
